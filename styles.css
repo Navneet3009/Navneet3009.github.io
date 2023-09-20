@@ -1,0 +1,133 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar*/
+#nav-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* About  */
+#about {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Skills*/
+#skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.skills-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.skills-card-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Projects*/
+#projects {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.project-description {
+    margin-top: 10px;
+}
+
+.project-tech-stack {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.project-github-link,
+.project-deployed-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Contact*/
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Resume Button*/
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-button:hover {
+    background-color: #555;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+
+}

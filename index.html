@@ -2,12 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navneet Srivastava Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello This is Navneet Srivastava</h1>
-    <h2>This is the second commit</h2>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#home" class="nav-link home">Home</a></li>
+            <li><a href="#about" class="nav-link about">About Me</a></li>
+            <li><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link contact">Contact</a></li>
+            <li><a href="#" id="resume-link-1" class="nav-link resume" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="about section">
+            <img src="your-photo.jpg" class="home-img" alt="Your Photo">
+            <h1 id="user-detail-name">Navneet Srivastava</h1>
+            <p id="user-detail-intro">JAVA BACKEND DEVELOPER</p>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <h2>About Me</h2>
+        <p>Greetings! I'm Navneet Srivastava, a mechanical engineer with an adventurous spirit, transitioning into the realm of Information Technology. With a solid five-year foundation in mechanical engineering, I've mastered precision and problem-solving. Now, I'm excited to harness these skills in the world of IT. <br>
+            My technical toolbox includes HTML, CSS, JavaScript, Java, MySQL, Hibernate, Maven, and Spring Boot. I'm well-acquainted with essential development tools such as GitHub, Postman, STS (Spring Tool Suite), and Visual Studio Code. My goal? To become a proficient Java Backend Developer.  <br>              
+            What sets me apart is my ability to blend my mechanical background with IT, offering a unique approach to systematic problem-solving. I thrive on creating efficient, scalable solutions and keeping my finger on the pulse of technology trends.    <br>            
+            As I embark on this IT adventure, I'm committed to continuous learning, innovation, and collaborating with like-minded professionals to make a meaningful impact in the world of software development. Thank you for visiting my portfolio, and I look forward to the exciting journey ahead.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-card">
+            <img src="html-icon.png" class="skills-card-img" alt="HTML Icon">
+            <p class="skills-card-name">HTML</p>
+        </div>
+        <!-- Add more skill cards as needed -->
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="project-image.jpg" alt="Project Image">
+            <h3 class="project-title">Project</h3>
+            <p class="project-description">Project description</p>
+            <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+            <a href="github-link" class="project-github-link" target="_blank">GitHub</a>
+            <a href="deployment-link" class="project-deployed-link" target="_blank">Deployment</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li id="contact-github">GitHub: <a href="https://github.com/Navneet3009" target="_blank">Navneet3009</a></li>
+            <li id="contact-linkedin">LinkedIn: <a href="https://www.linkedin.com/in/navneet-srivastava-5b38b924b/" target="_blank">Navneet Srivastava</a></li>
+            <li id="contact-phone">Phone: +91 8604973744</li>
+            <li id="contact-email">Email: navneetsrivastava52@gmail.com</li>
+        </ul>
+    </section>
+
+    <a href="resume.pdf" id="resume-link-1" class="resume-button" download>Download Resume</a>
+    <a href="resume.pdf" id="resume-link-2" class="resume-button" target="_blank">View Resume</a>
+
+    <script src="script.js"></script>
 </body>
 </html>

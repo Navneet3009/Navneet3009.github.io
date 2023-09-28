@@ -48,3 +48,14 @@ function scrollHorizontally(scrollAmount) {
   container.scrollLeft += scrollAmount;
  
 }
+document.getElementById("resume-link-1").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1Gs9JzIbSN3NIiFUyoQESoyFiRsto4uDj/view?usp=sharing"
+  );
+};
+
+document.getElementById("resume-link-2").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1Gs9JzIbSN3NIiFUyoQESoyFiRsto4uDj/view?usp=sharing"
+  );
+};

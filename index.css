@@ -122,7 +122,7 @@
   border-radius: 30px;
    
   }
-  .homeImg{
+  .home-img{
     display: flex;
     width: 30vw;
     height: 80vh;
@@ -595,7 +595,7 @@
   #home{
     height: 80vh;
   }
-  .homeImg{
+  .home-img{
     height: 60vh;}
   #skills{
     width: 100vw;
@@ -697,7 +697,7 @@
       height: 50vh;
       flex-direction: column;
     }
-    .homeImg{
+    .home-img{
       width: 70vw;
       height: 50vh;}
     #skills{

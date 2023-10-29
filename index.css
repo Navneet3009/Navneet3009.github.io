@@ -751,3 +751,11 @@
     }
   }
   
+
+  .calendar{
+    margin: auto;
+  }
+  .calendar img{
+    width: 100%;
+    margin: auto;
+  }

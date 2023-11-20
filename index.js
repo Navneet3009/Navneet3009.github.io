@@ -50,12 +50,12 @@ function scrollHorizontally(scrollAmount) {
 }
 document.getElementById("resume-link-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1wvtVudvPy-fFimvLizDM6hTefpENJ4PR/view?usp=sharing"
+    "https://drive.google.com/file/d/1rNXkAaCbmu-KBbsKG_FlRCHLEzFORqlZ/view"
   );
 };
 
 document.getElementById("resume-link-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1wvtVudvPy-fFimvLizDM6hTefpENJ4PR/view?usp=sharing"
+    "https://drive.google.com/file/d/1rNXkAaCbmu-KBbsKG_FlRCHLEzFORqlZ/view"
   );
 };
